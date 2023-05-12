@@ -2,7 +2,7 @@ This code is associated with the paper (under review) from Shah et. al., "Season
 
 # Seasonal antigenic prediction of influenza A H3N2 using machine learning
 
-**Syed Awais W. Shah<sup>1</sup>, Daniel P. Palomar<sup>1,2</sup>, Ian Barr<sup>3,4</sup>, Leo L. M. Poon<sup>5,6</sup>, Ahmed Abdul Quadeer<sup>1,*</sup>, and Matthew R. McKay<sup>4,7,*</sup>**
+**Syed Awais W. Shah<sup>1</sup>, Daniel P. Palomar<sup>1,2</sup>, Ian Barr<sup>3,4</sup>, Leo L. M. Poon<sup>5,6</sup>, Ahmed Abdul Quadeer<sup>1</sup>, and Matthew R. McKay<sup>4,7</sup>**
 
 <sup>1</sup> Department of Electronic and Computer Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong SAR, China
 
