@@ -1,9 +1,14 @@
 cvxopt==1.2.7
+hyperopt==0.2.7
+joblib==1.2.0
 mosek==9.3.20
 numpy==1.21.2
+optuna==3.3.0
 pandas==1.3.4
+protobuf==4.24.4
 python==3.8.12
+py-xgboost==1.7.3
 scikit-learn==1.0.1
 scipy==1.7.1
 seaborn==0.11.2
-hyperopt==0.2.7
+tensorflow==2.10.1
