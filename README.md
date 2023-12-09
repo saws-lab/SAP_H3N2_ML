@@ -1,4 +1,4 @@
-This code is associated with the paper (under review) from Shah et. al., "Seasonal Antigenic Prediction of Influenza A H3N2 using machine learning".
+This code is associated with the paper (under review) from Shah et. al., "Seasonal antigenic prediction of influenza A H3N2 using machine learning".
 
 # Seasonal antigenic prediction of influenza A H3N2 using machine learning
 
@@ -34,7 +34,7 @@ The source codes (compiled in Jupyter notebooks) regenerates the figures in the 
 6. Install Jupyter notebook kernels within the environment using "conda install -n base nb_conda_kernels"
 
 ## Quickstart
-1. Prepare input data as described in Materials and Methods section of the paper in the form of CSV file containing columns mentioned in file "[Fig2a_data_distribution.ipynb](https://github.com/saws-lab/SAP_H3N2_ML/blob/main/src/Fig2a_data_distribution.ipynb)".
+1. Prepare input data as described in Materials and Methods section of the paper in the form of CSV file containing columns mentioned in file "[Supp_Fig2a_seasonal_data_distribution.ipynb](https://github.com/saws-lab/SAP_H3N2_ML/blob/main/src/SuppFig2a_seasonal_data_distribution.ipynb)".
 2. To generate a figure, run the corresponding notebook. Each notebook contains step by step instructions to run the simulation and to regenerate the corresponding figure.
 
 ## Troubleshooting
