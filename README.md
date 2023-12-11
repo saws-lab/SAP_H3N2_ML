@@ -30,8 +30,9 @@ The source codes (compiled in Jupyter notebooks) regenerates the figures in the 
 2. Clone the SAP_H3N2_ML repository using "git clone https://github.com/saws-lab/SAP_H3N2_ML.git"
 3. Create a virtual environment (e.g., named as SAP_H3N2_ML) with Python version 3.8.12 using "conda create --name SAP_H3N2_ML python=3.8.12"
 4. Within the environment install the dependencies provided in file "[requirements.txt](https://github.com/saws-lab/SAP_H3N2_ML/blob/main/requirements.txt)"
-5. Install Jupyter notebook within the environment using "conda install jupyter"
-6. Install Jupyter notebook kernels within the environment using "conda install -n base nb_conda_kernels"
+5. Install Jupyter notebook in your base environment using "conda install jupyter"
+6. Install nb_conda_kernel in your base environment using "conda install nb_conda_kernel"
+7. Install Jupyter notebook kernels within the environment using "python -m ipykernel install --user --name SAP_H3N2_ML --display-name "Python (SAP_H3N2_ML)"
 
 ## Quickstart
 1. Prepare input data as described in Materials and Methods section of the paper in the form of CSV file containing columns mentioned in file "[Supp_Fig2a_seasonal_data_distribution.ipynb](https://github.com/saws-lab/SAP_H3N2_ML/blob/main/src/SuppFig2a_seasonal_data_distribution.ipynb)".
