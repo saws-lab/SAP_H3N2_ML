@@ -1,4 +1,4 @@
-This code is associated with the paper (under review) from Shah et. al., "Seasonal antigenic prediction of influenza A H3N2 using machine learning".
+This code is associated with the paper (accepted to be published at Nature Communications) from Shah et. al., "Seasonal antigenic prediction of influenza A H3N2 using machine learning".
 
 # Seasonal antigenic prediction of influenza A H3N2 using machine learning
 
