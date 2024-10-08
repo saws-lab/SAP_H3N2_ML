@@ -1,4 +1,4 @@
-This code is associated with the paper (accepted to be published at Nature Communications) from Shah et. al., "Seasonal antigenic prediction of influenza A H3N2 using machine learning".
+This code is associated with the paper from [Shah et. al., "Seasonal antigenic prediction of influenza A H3N2 using machine learning"](https://doi.org/10.1038/s41467-024-47862-9).
 
 # Seasonal antigenic prediction of influenza A H3N2 using machine learning
 
@@ -23,7 +23,7 @@ This code is associated with the paper (accepted to be published at Nature Commu
 Antigenic characterization of circulating influenza A virus (IAV) isolates is routinely assessed by using the hemagglutination inhibition (HI) assays for surveillance purposes. It is also used to determine the need for annual influenza vaccine updates as well as for pandemic preparedness. Performing antigenic characterization of IAV on a global scale is confronted with high costs, animal availability, and other practical challenges. Here we present a machine learning model that accurately predicts (normalized) outputs of HI assays involving circulating human IAV H3N2 viruses, using their hemagglutinin subunit 1 (HA1) sequences and associated metadata. Each season, the model learns an updated nonlinear mapping of genetic to antigenic changes using data from past seasons only. The model accurately distinguishes antigenic variants from non-variants and adaptively characterizes seasonal dynamics of HA1 sites having the strongest influence on antigenic change. Antigenic predictions produced by the model can aid influenza surveillance, public health management, and vaccine strain selection activities.
 
 ## Source codes
-The source codes (compiled in Jupyter notebooks) regenerates the figures in the above mentioned paper.
+The source codes (compiled in Jupyter notebooks) regenerate the figures in the above-mentioned paper.
 
 ## Installation
 1. Install [miniconda](https://conda.io/miniconda.html) or [anaconda](https://www.anaconda.com/)
@@ -38,5 +38,8 @@ The source codes (compiled in Jupyter notebooks) regenerates the figures in the 
 1. Prepare input data as described in Materials and Methods section of the paper in the form of CSV file containing columns mentioned in file "[Supp_Fig2a_seasonal_data_distribution.ipynb](https://github.com/saws-lab/SAP_H3N2_ML/blob/main/src/SuppFig2a_seasonal_data_distribution.ipynb)".
 2. To generate a figure, run the corresponding notebook. Each notebook contains step by step instructions to run the simulation and to regenerate the corresponding figure.
 
+## Web application
+The web server running the web application for seasonal antigenic prediction of IAV H3N2 using our proposed AdaBoost model can be accessed from Hugging Face Spaces (https://huggingface.co/spaces/sawshah/SAP_H3N2)
+
 ## Troubleshooting
-For any questions or comments, please email at [sawshah@connect.ust.hk](mailto:sawshah@connect.ust.hk)
+For any questions or comments, please email at [awais.shah@unimelb.edu.au](mailto:awais.shah@unimelb.edu.au) or [sawshah@connect.ust.hk](mailto:sawshah@connect.ust.hk)
