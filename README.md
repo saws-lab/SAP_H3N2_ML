@@ -35,7 +35,7 @@ The source codes (compiled in Jupyter notebooks) regenerate the figures in the a
 7. Install Jupyter notebook kernels within the environment using "python -m ipykernel install --user --name SAP_H3N2_ML --display-name "Python (SAP_H3N2_ML)"
 
 ## Quickstart
-1. Download data published with the paper as Supplementary Data 1.
+1. Download data published with the [paper]((https://doi.org/10.1038/s41467-024-47862-9)) as Supplementary Data 1. Also, see the section Data Availability for more details of the data.
 2. Prepare input data as described in Materials and Methods section of the paper in the form of CSV file containing columns mentioned in file "[Supp_Fig2a_seasonal_data_distribution.ipynb](https://github.com/saws-lab/SAP_H3N2_ML/blob/main/src/SuppFig2a_seasonal_data_distribution.ipynb)".
 3. To generate a figure, run the corresponding notebook. Each notebook contains step by step instructions to run the simulation and to regenerate the corresponding figure.
 
