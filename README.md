@@ -29,7 +29,7 @@ The source codes (compiled in Jupyter notebooks) regenerate the figures in the a
 1. Install [miniconda](https://conda.io/miniconda.html) or [anaconda](https://www.anaconda.com/)
 2. Clone the SAP_H3N2_ML repository using "git clone https://github.com/saws-lab/SAP_H3N2_ML.git"
 3. Create a virtual environment (e.g., named as SAP_H3N2_ML) with Python version 3.8.12 using "conda create --name SAP_H3N2_ML python=3.8.12"
-4. Within the environment install the dependencies provided in file "[requirements.txt](https://github.com/saws-lab/SAP_H3N2_ML/blob/main/requirements.txt)"
+4. Within the environment install the dependencies provided in file "[requirements.txt](https://github.com/saws-lab/SAP_H3N2_ML/blob/main/requirements.txt)" using "pip install -r requirements.txt"
 5. Install Jupyter notebook in your base environment using "conda install jupyter"
 6. Install nb_conda_kernel in your base environment using "conda install nb_conda_kernel"
 7. Install Jupyter notebook kernels within the environment using "python -m ipykernel install --user --name SAP_H3N2_ML --display-name "Python (SAP_H3N2_ML)"
